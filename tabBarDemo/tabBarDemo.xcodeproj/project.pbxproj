@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		18CC99781E0BBFAB00684698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99771E0BBFAB00684698 /* main.m */; };
 		18CC997B1E0BBFAB00684698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC997A1E0BBFAB00684698 /* AppDelegate.m */; };
-		18CC997E1E0BBFAB00684698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC997D1E0BBFAB00684698 /* ViewController.m */; };
-		18CC99811E0BBFAB00684698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC997F1E0BBFAB00684698 /* Main.storyboard */; };
 		18CC99831E0BBFAB00684698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC99821E0BBFAB00684698 /* Assets.xcassets */; };
 		18CC99861E0BBFAB00684698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC99841E0BBFAB00684698 /* LaunchScreen.storyboard */; };
 		18CC99911E0BBFAB00684698 /* tabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99901E0BBFAB00684698 /* tabBarDemoTests.m */; };
 		18CC999C1E0BBFAB00684698 /* tabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC999B1E0BBFAB00684698 /* tabBarDemoUITests.m */; };
+		18CC99AB1E0BC03600684698 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99AA1E0BC03600684698 /* RootViewController.m */; };
+		18CC99B31E0BC18700684698 /* TabBarBigButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99B21E0BC18700684698 /* TabBarBigButton.m */; };
+		18CC99B61E0BC19A00684698 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99B51E0BC19A00684698 /* TabBarButton.m */; };
+		18CC99B91E0BC1B800684698 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99B81E0BC1B800684698 /* TabBar.m */; };
+		18CC99DC1E0BC41900684698 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99BC1E0BC41900684698 /* Foundation+Log.m */; };
+		18CC99DD1E0BC41900684698 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99BE1E0BC41900684698 /* NSDate+Extension.m */; };
+		18CC99DE1E0BC41900684698 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99C01E0BC41900684698 /* NSDictionary+Extension.m */; };
+		18CC99DF1E0BC41900684698 /* NSString+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99C21E0BC41900684698 /* NSString+BXExtension.m */; };
+		18CC99E01E0BC41900684698 /* UIApplication+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99C41E0BC41900684698 /* UIApplication+Extensions.m */; };
+		18CC99E11E0BC41900684698 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99C61E0BC41900684698 /* UIBarButtonItem+Extension.m */; };
+		18CC99E21E0BC41900684698 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99C81E0BC41900684698 /* UIButton+Extension.m */; };
+		18CC99E31E0BC41900684698 /* UIDevice+DeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99CA1E0BC41900684698 /* UIDevice+DeviceType.m */; };
+		18CC99E41E0BC41900684698 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99CC1E0BC41900684698 /* UIFont+Extension.m */; };
+		18CC99E51E0BC41900684698 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99CE1E0BC41900684698 /* UIImage+Extension.m */; };
+		18CC99E61E0BC41900684698 /* UIImage+ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D01E0BC41900684698 /* UIImage+ScreenShot.m */; };
+		18CC99E71E0BC41900684698 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D21E0BC41900684698 /* UILabel+Extension.m */; };
+		18CC99E81E0BC41900684698 /* UIScreen+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D41E0BC41900684698 /* UIScreen+Extension.m */; };
+		18CC99E91E0BC41900684698 /* UITextControl+FaultTolerance.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D51E0BC41900684698 /* UITextControl+FaultTolerance.m */; };
+		18CC99EA1E0BC41900684698 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D71E0BC41900684698 /* UIView+Extension.m */; };
+		18CC99EB1E0BC41900684698 /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99D91E0BC41900684698 /* UIView+IBExtension.m */; };
+		18CC99EC1E0BC41900684698 /* UIView+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC99DB1E0BC41900684698 /* UIView+Runtime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +58,6 @@
 		18CC99771E0BBFAB00684698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CC99791E0BBFAB00684698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CC997A1E0BBFAB00684698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18CC997C1E0BBFAB00684698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CC997D1E0BBFAB00684698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18CC99801E0BBFAB00684698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CC99821E0BBFAB00684698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CC99851E0BBFAB00684698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CC99871E0BBFAB00684698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,48 @@
 		18CC99971E0BBFAB00684698 /* tabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC999B1E0BBFAB00684698 /* tabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabBarDemoUITests.m; sourceTree = "<group>"; };
 		18CC999D1E0BBFAB00684698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC99A91E0BC03600684698 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18CC99AA1E0BC03600684698 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18CC99B11E0BC18700684698 /* TabBarBigButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarBigButton.h; sourceTree = "<group>"; };
+		18CC99B21E0BC18700684698 /* TabBarBigButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarBigButton.m; sourceTree = "<group>"; };
+		18CC99B41E0BC19A00684698 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		18CC99B51E0BC19A00684698 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
+		18CC99B71E0BC1B800684698 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		18CC99B81E0BC1B800684698 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		18CC99BB1E0BC41900684698 /* BXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXExtensions.h; sourceTree = "<group>"; };
+		18CC99BC1E0BC41900684698 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		18CC99BD1E0BC41900684698 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		18CC99BE1E0BC41900684698 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		18CC99BF1E0BC41900684698 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		18CC99C01E0BC41900684698 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		18CC99C11E0BC41900684698 /* NSString+BXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BXExtension.h"; sourceTree = "<group>"; };
+		18CC99C21E0BC41900684698 /* NSString+BXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BXExtension.m"; sourceTree = "<group>"; };
+		18CC99C31E0BC41900684698 /* UIApplication+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extensions.h"; sourceTree = "<group>"; };
+		18CC99C41E0BC41900684698 /* UIApplication+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extensions.m"; sourceTree = "<group>"; };
+		18CC99C51E0BC41900684698 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		18CC99C61E0BC41900684698 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		18CC99C71E0BC41900684698 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		18CC99C81E0BC41900684698 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		18CC99C91E0BC41900684698 /* UIDevice+DeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DeviceType.h"; sourceTree = "<group>"; };
+		18CC99CA1E0BC41900684698 /* UIDevice+DeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DeviceType.m"; sourceTree = "<group>"; };
+		18CC99CB1E0BC41900684698 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		18CC99CC1E0BC41900684698 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		18CC99CD1E0BC41900684698 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		18CC99CE1E0BC41900684698 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		18CC99CF1E0BC41900684698 /* UIImage+ScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenShot.h"; sourceTree = "<group>"; };
+		18CC99D01E0BC41900684698 /* UIImage+ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenShot.m"; sourceTree = "<group>"; };
+		18CC99D11E0BC41900684698 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		18CC99D21E0BC41900684698 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		18CC99D31E0BC41900684698 /* UIScreen+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extension.h"; sourceTree = "<group>"; };
+		18CC99D41E0BC41900684698 /* UIScreen+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extension.m"; sourceTree = "<group>"; };
+		18CC99D51E0BC41900684698 /* UITextControl+FaultTolerance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextControl+FaultTolerance.m"; sourceTree = "<group>"; };
+		18CC99D61E0BC41900684698 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18CC99D71E0BC41900684698 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		18CC99D81E0BC41900684698 /* UIView+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBExtension.h"; sourceTree = "<group>"; };
+		18CC99D91E0BC41900684698 /* UIView+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBExtension.m"; sourceTree = "<group>"; };
+		18CC99DA1E0BC41900684698 /* UIView+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Runtime.h"; sourceTree = "<group>"; };
+		18CC99DB1E0BC41900684698 /* UIView+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Runtime.m"; sourceTree = "<group>"; };
+		18CC99ED1E0BC44400684698 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +159,16 @@
 		18CC99751E0BBFAB00684698 /* tabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18CC99BA1E0BC41900684698 /* Category */,
+				18CC99B01E0BC14A00684698 /* Resouse */,
+				18CC99AC1E0BC07400684698 /* Views */,
+				18CC99AD1E0BC07500684698 /* ViewControllers */,
+				18CC99AE1E0BC07500684698 /* Share */,
+				18CC99AF1E0BC07500684698 /* Modes */,
 				18CC99791E0BBFAB00684698 /* AppDelegate.h */,
 				18CC997A1E0BBFAB00684698 /* AppDelegate.m */,
-				18CC997C1E0BBFAB00684698 /* ViewController.h */,
-				18CC997D1E0BBFAB00684698 /* ViewController.m */,
-				18CC997F1E0BBFAB00684698 /* Main.storyboard */,
+				18CC99A91E0BC03600684698 /* RootViewController.h */,
+				18CC99AA1E0BC03600684698 /* RootViewController.m */,
 				18CC99821E0BBFAB00684698 /* Assets.xcassets */,
 				18CC99841E0BBFAB00684698 /* LaunchScreen.storyboard */,
 				18CC99871E0BBFAB00684698 /* Info.plist */,
@@ -118,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				18CC99771E0BBFAB00684698 /* main.m */,
+				18CC99ED1E0BC44400684698 /* PrefixHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +202,87 @@
 				18CC999D1E0BBFAB00684698 /* Info.plist */,
 			);
 			path = tabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		18CC99AC1E0BC07400684698 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18CC99AD1E0BC07500684698 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18CC99AE1E0BC07500684698 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				18CC99B11E0BC18700684698 /* TabBarBigButton.h */,
+				18CC99B21E0BC18700684698 /* TabBarBigButton.m */,
+				18CC99B41E0BC19A00684698 /* TabBarButton.h */,
+				18CC99B51E0BC19A00684698 /* TabBarButton.m */,
+				18CC99B71E0BC1B800684698 /* TabBar.h */,
+				18CC99B81E0BC1B800684698 /* TabBar.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		18CC99AF1E0BC07500684698 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		18CC99B01E0BC14A00684698 /* Resouse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resouse;
+			sourceTree = "<group>";
+		};
+		18CC99BA1E0BC41900684698 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18CC99BB1E0BC41900684698 /* BXExtensions.h */,
+				18CC99BC1E0BC41900684698 /* Foundation+Log.m */,
+				18CC99BD1E0BC41900684698 /* NSDate+Extension.h */,
+				18CC99BE1E0BC41900684698 /* NSDate+Extension.m */,
+				18CC99BF1E0BC41900684698 /* NSDictionary+Extension.h */,
+				18CC99C01E0BC41900684698 /* NSDictionary+Extension.m */,
+				18CC99C11E0BC41900684698 /* NSString+BXExtension.h */,
+				18CC99C21E0BC41900684698 /* NSString+BXExtension.m */,
+				18CC99C31E0BC41900684698 /* UIApplication+Extensions.h */,
+				18CC99C41E0BC41900684698 /* UIApplication+Extensions.m */,
+				18CC99C51E0BC41900684698 /* UIBarButtonItem+Extension.h */,
+				18CC99C61E0BC41900684698 /* UIBarButtonItem+Extension.m */,
+				18CC99C71E0BC41900684698 /* UIButton+Extension.h */,
+				18CC99C81E0BC41900684698 /* UIButton+Extension.m */,
+				18CC99C91E0BC41900684698 /* UIDevice+DeviceType.h */,
+				18CC99CA1E0BC41900684698 /* UIDevice+DeviceType.m */,
+				18CC99CB1E0BC41900684698 /* UIFont+Extension.h */,
+				18CC99CC1E0BC41900684698 /* UIFont+Extension.m */,
+				18CC99CD1E0BC41900684698 /* UIImage+Extension.h */,
+				18CC99CE1E0BC41900684698 /* UIImage+Extension.m */,
+				18CC99CF1E0BC41900684698 /* UIImage+ScreenShot.h */,
+				18CC99D01E0BC41900684698 /* UIImage+ScreenShot.m */,
+				18CC99D11E0BC41900684698 /* UILabel+Extension.h */,
+				18CC99D21E0BC41900684698 /* UILabel+Extension.m */,
+				18CC99D31E0BC41900684698 /* UIScreen+Extension.h */,
+				18CC99D41E0BC41900684698 /* UIScreen+Extension.m */,
+				18CC99D51E0BC41900684698 /* UITextControl+FaultTolerance.m */,
+				18CC99D61E0BC41900684698 /* UIView+Extension.h */,
+				18CC99D71E0BC41900684698 /* UIView+Extension.m */,
+				18CC99D81E0BC41900684698 /* UIView+IBExtension.h */,
+				18CC99D91E0BC41900684698 /* UIView+IBExtension.m */,
+				18CC99DA1E0BC41900684698 /* UIView+Runtime.h */,
+				18CC99DB1E0BC41900684698 /* UIView+Runtime.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +394,6 @@
 			files = (
 				18CC99861E0BBFAB00684698 /* LaunchScreen.storyboard in Resources */,
 				18CC99831E0BBFAB00684698 /* Assets.xcassets in Resources */,
-				18CC99811E0BBFAB00684698 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +418,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CC997E1E0BBFAB00684698 /* ViewController.m in Sources */,
+				18CC99E71E0BC41900684698 /* UILabel+Extension.m in Sources */,
+				18CC99E11E0BC41900684698 /* UIBarButtonItem+Extension.m in Sources */,
 				18CC997B1E0BBFAB00684698 /* AppDelegate.m in Sources */,
+				18CC99EA1E0BC41900684698 /* UIView+Extension.m in Sources */,
+				18CC99DC1E0BC41900684698 /* Foundation+Log.m in Sources */,
+				18CC99DE1E0BC41900684698 /* NSDictionary+Extension.m in Sources */,
 				18CC99781E0BBFAB00684698 /* main.m in Sources */,
+				18CC99EB1E0BC41900684698 /* UIView+IBExtension.m in Sources */,
+				18CC99E61E0BC41900684698 /* UIImage+ScreenShot.m in Sources */,
+				18CC99B61E0BC19A00684698 /* TabBarButton.m in Sources */,
+				18CC99DD1E0BC41900684698 /* NSDate+Extension.m in Sources */,
+				18CC99E51E0BC41900684698 /* UIImage+Extension.m in Sources */,
+				18CC99B91E0BC1B800684698 /* TabBar.m in Sources */,
+				18CC99E41E0BC41900684698 /* UIFont+Extension.m in Sources */,
+				18CC99EC1E0BC41900684698 /* UIView+Runtime.m in Sources */,
+				18CC99DF1E0BC41900684698 /* NSString+BXExtension.m in Sources */,
+				18CC99B31E0BC18700684698 /* TabBarBigButton.m in Sources */,
+				18CC99AB1E0BC03600684698 /* RootViewController.m in Sources */,
+				18CC99E31E0BC41900684698 /* UIDevice+DeviceType.m in Sources */,
+				18CC99E21E0BC41900684698 /* UIButton+Extension.m in Sources */,
+				18CC99E91E0BC41900684698 /* UITextControl+FaultTolerance.m in Sources */,
+				18CC99E01E0BC41900684698 /* UIApplication+Extensions.m in Sources */,
+				18CC99E81E0BC41900684698 /* UIScreen+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18CC997F1E0BBFAB00684698 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18CC99801E0BBFAB00684698 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18CC99841E0BBFAB00684698 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,6 +582,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tabBarDemo/PrefixHeader.h";
 				INFOPLIST_FILE = tabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgjr.tabBarDemo;
@@ -438,6 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tabBarDemo/PrefixHeader.h";
 				INFOPLIST_FILE = tabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgjr.tabBarDemo;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  tabBarDemo
 //
 //  Created by Apple on 2016/12/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-
